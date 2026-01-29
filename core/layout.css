@@ -1,0 +1,18 @@
+/* Sidebar + DM list */
+.sidebar-1tnWFu,
+.sidebar-1tnWFu > .scroller-1BvpXF {
+    background-color: var(--background-secondary) !important;
+}
+
+/* Chat background */
+main[role="main"],
+.scrollerInner-2YIMLh {
+    background-color: var(--background-primary) !important;
+}
+
+/* Channel & DM hover */
+.containerDefault-YUSmu3:hover,
+.modeSelected-3DmyhH {
+    background-color: rgba(255, 143, 184, 0.18);
+    border-radius: 12px;
+}

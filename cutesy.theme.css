@@ -5,10 +5,16 @@
  * @description Modular pastel Discord theme
  */
 
-@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/variables.css");
-@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/layout.css");
-@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/messages.css");
 
-/* Optional cute stuff */
-@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/modules/badges.css");
-@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/modules/mentions.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/core/variables.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/core/layout.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/core/messages.css");
+
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/modules/badges.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/modules/buttons.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/modules/mention.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/modules/servers.css");
+
+/* Optional extras */
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/extra/pastel-scrollbar.css");
+@import url("https://github.com/Maxcuhh/Cutesy-theme/blob/main/extra/rounded-avatars.css");

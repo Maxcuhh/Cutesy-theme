@@ -1,0 +1,8 @@
+button {
+    border-radius: 999px !important;
+}
+
+button[class*="lookFilled"] {
+    background-color: var(--brand-experiment) !important;
+    color: white !important;
+}
