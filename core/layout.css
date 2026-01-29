@@ -1,11 +1,39 @@
-/* ===================== */
-/* ===== CHAT AREA ===== */
-.chatContent-3KubbW,
-.scrollerInner-2YIMLh {
-    background-color: #fff2f6 !important;
+/* ========================= */
+/* Soft Pink Base Layout     */
+/* ========================= */
+
+/* App background */
+.appMount-2yBXZl {
+    background-color: var(--background-primary) !important;
 }
 
-/* Message list container */
-.messagesWrapper-RpOMA3 {
-    background-color: #fff2f6 !important;
+/* Main chat area */
+.chat-2ZfjoI,
+main[role="main"] {
+    background-color: var(--background-primary) !important;
+}
+
+/* Sidebar + DM list */
+.sidebar-1tnWFu,
+.privateChannels-oVe7HL {
+    background-color: var(--background-secondary) !important;
+}
+
+/* Channel list + DM items container */
+.container-1NXEtd,
+.scroller-WSmht3 {
+    background-color: transparent !important;
+}
+
+/* Panels spacing (soft separation, no borders) */
+.chat-2ZfjoI,
+.sidebar-1tnWFu {
+    margin: 6px;
+    border-radius: 14px;
+}
+
+/* Remove harsh dividers */
+.divider-2rZFJK,
+.content-1jQy2l::before {
+    display: none !important;
 }
