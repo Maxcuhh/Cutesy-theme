@@ -1,7 +1,8 @@
 .theme-dark {
     /* App backgrounds */
-    --background-primary: #ffe9f1;
-    --background-secondary: #ffe1ee;
+    --background-primary: #ffeaf2;
+    --background-secondary: #ffdce8;
+
     --background-tertiary: #ffd6e8;
 
     /* Messages (Discord-controlled variables) */
