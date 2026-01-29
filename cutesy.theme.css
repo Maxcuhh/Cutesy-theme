@@ -1,0 +1,14 @@
+/**
+ * @name Pink<3
+ * @author Chyaru__
+ * @version 1.0.0
+ * @description Modular pastel Discord theme
+ */
+
+@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/variables.css");
+@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/layout.css");
+@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/core/messages.css");
+
+/* Optional cute stuff */
+@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/modules/badges.css");
+@import url("https://raw.githubusercontent.com/yourname/pinky-pop/main/modules/mentions.css");
