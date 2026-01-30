@@ -1,13 +1,17 @@
 /* ========================= */
-/* Soft Pink Base Layout     */
+/* PinkyPop — Root Base Fix  */
 /* ========================= */
 
-/* App background */
-.appMount-2yBXZl {
+/* Hard override the entire app background */
+html,
+body,
+#app-mount,
+.appMount-2yBXZl,
+.app-2CXKsg {
     background-color: var(--background-primary) !important;
 }
 
-/* Main chat area */
+/* Main chat */
 .chat-2ZfjoI,
 main[role="main"] {
     background-color: var(--background-primary) !important;
@@ -19,20 +23,21 @@ main[role="main"] {
     background-color: var(--background-secondary) !important;
 }
 
-/* Channel list + DM items container */
+/* Remove dark container layers */
 .container-1NXEtd,
-.scroller-WSmht3 {
-    background-color: transparent !important;
+.base-2jDfDU,
+.content-1jQy2l {
+    background: transparent !important;
 }
 
-/* Panels spacing (soft separation, no borders) */
+/* Soft spacing */
 .chat-2ZfjoI,
 .sidebar-1tnWFu {
     margin: 6px;
     border-radius: 14px;
 }
 
-/* Remove harsh dividers */
+/* Kill dark dividers */
 .divider-2rZFJK,
 .content-1jQy2l::before {
     display: none !important;
